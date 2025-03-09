@@ -1,0 +1,87 @@
+.subBarra-principal{
+    background-color: rgb(104, 104, 105);
+    margin-right: 5%;
+    margin-left: 5%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.primeraSeccion{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zonaImagenTexto{
+width: 50%;
+}
+
+.zonaImagenTexto3{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.div1-textInformativo{
+    width: 100%;
+    background-color: rgb(228, 232, 232);
+    margin-top: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.div1-textInformativo:hover{
+    background-color: rgb(160, 176, 176);
+}
+
+.text-Informativo{
+    font-size: 40px;
+}
+
+.imagenTextoInformativo{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.imagenTextoInformativo3{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.div3-textInformativo{
+    width: 50%;
+    background-color: rgb(228, 232, 232);
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.div3-textInformativo:hover{
+    background-color: rgb(160, 176, 176);
+
+}
+
+.divFinal{
+    display: flex;
+    flex-direction: row;
+}
+
+.textoSubMenus{
+    color: white;
+}

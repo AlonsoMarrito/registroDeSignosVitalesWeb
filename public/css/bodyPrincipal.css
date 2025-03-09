@@ -4,17 +4,19 @@
 
 .cabeceraPrincipal {
     width: 100%;
-    background-color: rgb(82, 241, 241);
+    background-color: rgb(36, 40, 40);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     height: 100px;
+    padding-top: 100px;
     display: flex;
     align-items: center;
     padding: 0;
     margin: 0;
     z-index: 1000;
+    border-bottom-right-radius: 100px;
 }
 
 .imagenBarNav {
@@ -39,7 +41,7 @@
 .buttonNavegation {
     background-color: transparent;
     border: none;
-    color: black; /* Cambié a negro para mejorar el contraste */
+    color: rgb(255, 255, 255);
     font-size: 16px;
     margin: 0 15px;
     cursor: pointer;
@@ -47,7 +49,7 @@
 }
 
 .buttonNavegation:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(52, 59, 63);
     border-radius: 5px;
     padding: 10px 15px;
 }
@@ -61,7 +63,7 @@
 .dropdown-btn {
     background-color: transparent;
     border: none;
-    color: black; /* Cambié el color a negro para que se vea mejor */
+    color: rgb(255, 255, 255);
     font-size: 16px;
     margin: 0 15px;
     cursor: pointer;
@@ -72,7 +74,7 @@
     position: absolute;
     top: 30px;
     left: 0;
-    background-color: #00fffb;
+    background-color: #2f384b;
     border-radius: 5px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1001;
@@ -92,15 +94,16 @@
 }
 
 .dropdown-content li a {
-    color: rgb(4, 94, 158);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 14px;
     padding: 5px;
 }
 
 .dropdown-content li a:hover {
-    background-color: #b2cdf1;
-    align-items: center
+    background-color: #255fe7;
+    align-items: center;
+    border-radius: 15px;
 }
 
 .nav-item:hover .dropdown-content {

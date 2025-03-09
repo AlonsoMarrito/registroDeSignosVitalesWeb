@@ -13,14 +13,14 @@
                 <img src="./assets/logoCompany1.jpeg" alt="Logo del producto" class="imagenBarNav">
             </div>
             <div class="seccionNavigationViews">
-                <button class="buttonNavegation">Inicio</button>
+                <a href="{{ asset('/') }}" class="buttonNavegation">Inicio</a>
                 <button class="nav-item buttonNavegation">
                     <a href="" class="dropdown-btn">HIT Solutions</a>
                     <div class="dropdown-content">
                         <ul>
-                            <li><a href="#">Quienes somos</a></li>
-                            <li><a href="#">Misión y visión</a></li>
-                            <li><a href="#">Historia</a></li>
+                            <li><a href="{{ asset('/quienesSomos') }}">Quienes somos</a></li>
+                            <li><a href="{{ asset('/misionVision') }}">Misión y visión</a></li>
+                            <li><a href="{{ asset('/historia') }}">Historia</a></li>
                         </ul>
                     </div>
                 </button>
@@ -28,8 +28,8 @@
                     <a href="" class="dropdown-btn">Nuestros productos</a>
                     <div class="dropdown-content">
                         <ul>
-                            <li><a href="#">MDMR</a></li>
-                            <li><a href="#">Vital band</a></li>
+                            <li><a href="{{ asset('/recursoMdmr') }}">MDMR</a></li>
+                            <li><a href="{{ asset('/recursoVitalBand') }}">Vital band</a></li>
                         </ul>
                     </div>
                 </button>
@@ -37,5 +37,6 @@
                 <a class="buttonNavegation" href="">Usar Vital Band</a>
             </div>
         </header>
+        @yield('barNav')
     </body>
 </html>
