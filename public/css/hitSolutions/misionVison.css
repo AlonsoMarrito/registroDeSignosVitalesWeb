@@ -1,0 +1,55 @@
+.titulo{
+    font-size: 50px;
+}
+
+.bienvenidaAlVisonMision{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 30px;
+    background-color: rgb(160, 176, 176);
+    font-weight: bold;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.divPrincipalMisionVision{
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.misionVision-div{
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.imagenMisionVision_misionVision{
+    width: 30%;
+}
+
+
+.div-tetxoMisionVisio{
+    text-align: center;
+    width: 50%;
+    font-size: 25;
+    margin: 30px;
+}
+
+.tituloMisionVision{
+    font-size: 40px;
+}
+
+.tetoMisionVision{
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
